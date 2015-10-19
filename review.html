@@ -1,9 +1,4 @@
 <!DOCTYPE html>
-<!--
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
--->
 <html>
   <head>
     <title>TODO supply a title</title>
@@ -43,12 +38,24 @@ and open the template in the editor.
 			</select>
 		</div>
 		
-		<div class="combox">
-			<p>Your Name</p>
-			<input type="text" id="cname" size="20"/>
-			<p>Your Comment</p>
-			<textarea id="ccom" rows="8" cols="80"></textarea>
+		<div id="dtext">
+			<h4>My comments</h4>
+			<input id="namebox" type="text" maxlength="32" size="20" value="title" />
+			<br/>
+			<textarea id="txt1" class="textbox" cols="40" rows="6"></textarea>
+		</div>
 		
+		        <div class="commbuttons">
+				<button class="navbutton" onclick="saveComment()">Save Comment</button>
+				</br>
+				<button class="navbutton" onclick="clearStorage()">Delete All Comments</button>
+		
+		</div>
+		
+		
+		<div id="comments">
+			<h4>Comments</h4>
+			<div id="cmtlist"></div>
 		</div>
 		
   </body>
