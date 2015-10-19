@@ -1,4 +1,6 @@
-	body
+/*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/ 
+
+body
 	{
 		margin:0;
 		padding:0;
