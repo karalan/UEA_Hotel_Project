@@ -24,3 +24,29 @@
 		text-align: center;
 		height: 50px;
 	}
+
+	div.gallery
+	{
+		margin: 5%; 
+		width: 90%;
+		border: 3px;
+		border-color: blue;
+		border-style: solid;
+	}
+	
+	
+	div.gallery td
+	{
+		border: 3px;
+		border-color: brown;
+		border-style: solid;
+		height: 100%;
+		width: 1000px;
+		min-width: 50px;
+		text-align: center;
+	}
+	
+	div.gallery h1
+	{
+		text-align: center;
+	}
