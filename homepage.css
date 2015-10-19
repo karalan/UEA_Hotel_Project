@@ -1,54 +1,42 @@
 /*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/ 
 
-body
-	{
-		margin:0;
-		padding:0;
-	}
-	
-	div.header
-	{
-		font-size: large;
-		background-color: black;
-		color: yellow;
-		height: 50px;
-		text-align: center;
-		line-height: 50px;
-	}
-	
-	div.menu td
-	{
-		border: 3px;
-		border-color: red;
-		border-style: solid;
-		min-width: 50px;
-		width: 500px;
-		text-align: center;
-		height: 50px;
-	}
-
-	div.gallery
-	{
-		margin: 5%; 
-		width: 90%;
-		border: 3px;
-		border-color: blue;
-		border-style: solid;
-	}
-	
-	
-	div.gallery td
-	{
-		border: 3px;
-		border-color: brown;
-		border-style: solid;
-		height: 100%;
-		width: 1000px;
-		min-width: 50px;
-		text-align: center;
-	}
-	
-	div.gallery h1
-	{
-		text-align: center;
-	}
+body {
+      margin:0;
+      padding:0;
+}	
+div.header {
+            font-size: xx-large;
+            background-color: black;
+            color: yellow;
+            height: 50px;
+            text-align: center;
+            line-height: 50px;
+}	
+div.menu td {
+            border: 3px;
+            border-color: red;
+            border-style: solid;
+            min-width: 50px;
+            width: 500px;
+            text-align: center;
+            height: 50px;
+}
+div.gallery {
+        margin: 5%; 
+        width: 90%;
+        border: 3px;
+        border-color: blue;
+        border-style: solid;
+}
+div.gallery td {
+        border: 3px;
+        border-color: brown;
+        border-style: solid;
+        height: 100%;
+        width: 1000px;
+        min-width: 50px;
+        text-align: center;
+}
+div.gallery h1 {
+        text-align: center;
+}

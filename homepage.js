@@ -1,8 +1,7 @@
- function saveComment()
- {
+ function saveComment(){
 	 
-	var cname = $('#namebox').val()
-	var ctext = $('#txt1').val()
+	var cname = $('#namebox').val();
+	var ctext = $('#txt1').val();
 			
 		if (cname ==='CLEAR ALL'){
 				deleteComments();
@@ -12,26 +11,26 @@
 				if (cname === '') //if name box is left blank, the name is going to be changed into Anonymous
 				{
 					cname = 'Anonymous';
-					alert('Your name is going to be change to Anonymous')
+					alert('As you have not entered your name, your comment will be recorded under \'Anonymous\'');
 				};
 			}
-	var thour = new Date().getHours()
+	var thour = new Date().getHours();
 		
-			if (thour<10)	//chaging format for hours that there would be a 0 before the numbers
+			if (thour<10)	//changing format for hours that there would be a 0 before the numbers
 			{
 					thour= "0"+thour;
 			}
 		
-	var tminutes = new Date().getMinutes()
+	var tminutes = new Date().getMinutes();
 		
-			if (tminutes<10)	//chaging format for minutes that there would be a 0 before the numbers
+			if (tminutes<10)	//changing format for minutes that there would be a 0 before the numbers
 			{
 					tminutes= "0"+tminutes;
 			}
 		
-	var tday = new Date().getDate()
-	var tmonth = new Date().getMonth()
-	var tyear = new Date().getFullYear()
+	var tday = new Date().getDate();
+	var tmonth = new Date().getMonth();
+	var tyear = new Date().getFullYear();
 		
 	var cmtlist = '<p><class="cmtname" span><b>'+cname+' '+tday+'/'+(tmonth+1)+'/'+tyear+' '+thour+':'+tminutes+'</b></span></br>'+ctext+'</p>';
 	$('#cmtlist').append(cmtlist);
@@ -50,7 +49,7 @@ function loadStorage()
 function clearStorage()
 	{
 	localStorage.removeItem('comm');
-	window.location.reload()
+	window.location.reload();
 	};
 
 window.onload = function loadComment()

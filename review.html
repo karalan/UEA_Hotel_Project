@@ -1,62 +1,51 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>TODO supply a title</title>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<link type="text/css" rel="stylesheet" href="homepage.css">
-	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
-	<script src="homepage.js"></script>
-		
-		
+    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
+      <link type="text/css" rel="stylesheet" href="homepage.css">
+        <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+        <script src="homepage.js"></script>
+          <title>Reviews</title>
   </head>
-  <body>
-		<div class="header">
-			<p>The Golden Lion Hotel</p>
-		</div>
-		
-		<div class="menu">
-			<table>
-				<tr>
-					<td><a href="index.html">Home</a></td>
-					<td><a href="gallery.html">Gallery</a></td>
-					<td><a href="book.html">Booking</a></td>
-					<td><a href="review.html">Reviews</a></td>
-					<td><a href="contact.html">Contacts</a></td>
-				</tr>
-			</table>
-		</div>
-		
-		<div class:="rating">
-			<p>How much you would rate our services</p>
-			<select size="1" name="rate">
-				<option value="1star">1</option>
-				<option value="2star">2</option>
-				<option value="3star">3</option>
-				<option value="4star">4</option>
-				<option value="5star">5</option>
-			</select>
-		</div>
-		
-		<div id="dtext">
-			<h4>My comments</h4>
-			<input id="namebox" type="text" maxlength="32" size="20" value="title" />
-			<br/>
-			<textarea id="txt1" class="textbox" cols="40" rows="6"></textarea>
-		</div>
-		
-		        <div class="commbuttons">
-				<button class="navbutton" onclick="saveComment()">Save Comment</button>
-				</br>
-				<button class="navbutton" onclick="clearStorage()">Delete All Comments</button>
-		
-		</div>
-		
-		
-		<div id="comments">
-			<h4>Comments</h4>
-			<div id="cmtlist"></div>
-		</div>
-		
-  </body>
-</html>
+    <body>
+      <div class="header">
+        <p>The Golden Lion Hotel</p>
+      </div>
+      <div class="menu">
+        <table>
+          <tr>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="gallery.html">Gallery</a></td>
+            <td><a href="booking.html" target="blank">Booking</a></td>
+            <td><a href="review.html">Reviews</a></td>
+            <td><a href="contact.html">Contacts</a></td>
+          </tr>
+        </table>
+      </div>
+      <div class="rating">
+        <p>How much you would rate our services</p>
+        <select size="1" name="rate">
+          <option value="1star">1</option>
+          <option value="2star">2</option>
+          <option value="3star">3</option>
+          <option value="4star">4</option>
+          <option value="5star">5</option>
+        </select>
+      </div>
+      <div id="dtext">
+        <h4>My comments</h4>
+        <input id="namebox" type="text" maxlength="32" size="20" value="title" />
+        <br/>
+        <textarea id="txt1" class="textbox" cols="40" rows="6"></textarea>
+      </div>
+      <div class="commbuttons">
+          <button class="navbutton" onclick="saveComment()">Save Comment</button>
+          </br>
+          <button class="navbutton" onclick="clearStorage()">Delete All Comments</button>
+      </div>
+      <div id="comments">
+        <h4>Comments</h4>
+        <div id="cmtlist"></div>
+      </div>
+    </body>
+  </html>
