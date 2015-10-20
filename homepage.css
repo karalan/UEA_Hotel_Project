@@ -29,14 +29,23 @@ div.gallery {
         border-style: solid;
 }
 div.gallery td {
-        border: 3px;
-        border-color: brown;
-        border-style: solid;
-        height: 100%;
+		padding-left: 1%;
+		padding-right: 5%;
+		height: auto;
         width: 1000px;
         min-width: 50px;
         text-align: center;
 }
 div.gallery h1 {
         text-align: center;
+}
+
+div.gallery img {
+		max-height: 300px;
+		max-width: 300px;
+		height: 25%;
+		width: 125%;
+
+		
+		
 }
