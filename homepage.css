@@ -7,15 +7,29 @@ body {
 div.header {
 			font-family: calibri;
             font-size: xx-large;
-            background-color: black;
             color: yellow;
             height: 50px;
             text-align: center;
             line-height: 50px;
+			background-repeat: no-repeat;
+			background-color: black;
+			background-position: right;
+			
 }	
 
 div.menu {
-			border: solid black 5px;
+			background-color: black;
+
+}
+
+div.menu a {
+			font-weight: bold;
+			color: white;
+			text-decoration: none;
+}
+
+div.menu table {
+	
 }
 
 div.menu td {
@@ -25,13 +39,39 @@ div.menu td {
             width: 500px;
             text-align: center;
             height: 50px;
+			background-color: black;
+
 }
 
-div.menu a {
-			font-weight: bold;
-			color: black;
-			text-decoration: none;
+div.menu td.inmenu{
+			background-image: url(webimage/menu.png);
+			text-align: right;
+			background-position: fixed;
+			
+			
 }
+
+div.menu td.inmenu a {
+			color: yellow;	
+}
+
+
+div.menu td.inmenu_title {		
+			font-family: calibri;
+            font-size: xx-large;
+            color: yellow;
+            text-align: center;
+			background-repeat: no-repeat;
+			background-color: black;
+			background-position: right;
+}
+
+div.menu td.inmenu_lion {		
+			background-image: url(webimage/golden_lion.jpg);
+			background-repeat: no-repeat;
+			
+}
+
 div.gallery {
         margin: 5%; 
         width: 90%;
