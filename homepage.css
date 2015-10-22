@@ -5,6 +5,7 @@ body {
       padding:0;
 }	
 div.header {
+			font-family: calibri;
             font-size: xx-large;
             background-color: black;
             color: yellow;
@@ -12,14 +13,24 @@ div.header {
             text-align: center;
             line-height: 50px;
 }	
+
+div.menu {
+			border: solid black 5px;
+}
+
 div.menu td {
-            border: 3px;
-            border-color: red;
-            border-style: solid;
+			font-family: calibri;
+			font-size: x-large;
             min-width: 50px;
             width: 500px;
             text-align: center;
             height: 50px;
+}
+
+div.menu a {
+			font-weight: bold;
+			color: black;
+			text-decoration: none;
 }
 div.gallery {
         margin: 5%; 
