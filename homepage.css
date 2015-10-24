@@ -1,30 +1,58 @@
 /*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/ 
 
 body {
-      margin:0;
-      padding:0;
-}	
+    margin:0;
+    padding:0;
+    background-color: #c5def6; /*colour declared for if BG img fails to load*/
+    background-image: url(resources/hotel_outside.JPG);
+    //padding: 2rem; /*can't decide whether to change image from full bg or not*/
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*means if content increases, BG image will remain static*/
+}
+body.gallery{
+    background-color: #c5def6;
+    background-image: none; /*This removes the background image on the gallery page, otherwise it looks awful*/
+}
+div.main {
+    margin: 2rem;
+    background-color: rgba(255,255,255,0.2); /*have to use RGBA value in order to have transparency-->*/
+    width: 30%;
+
+
+}
 div.header {
-			font-family: calibri;
+			font-family: Calibri, Arial, Sans-Serif; /*added other font options so can cascade if preferred font not available*/
             font-size: xx-large;
-            color: yellow;
-            height: 50px;
+            color: #ffac41;
+            height: 6rem;
             text-align: center;
-            line-height: 50px;
-			background-repeat: no-repeat;
-			background-color: black;
-			background-position: right;
+            //line-height: 50px;
+            background-repeat: no-repeat;
+			background-color: #c5def6;
+			//background-position: right;
 			
 }	
-
+/*header dl {       **Trying to get a header image to work. Will try again later**
+    margin: 0;
+    overflow: hidden;
+}
+header dt {
+    float: left;
+    padding: 1rem;
+}
+header dd {
+    float: right;
+    padding: 1rem;
+}*/
 div.menu {
-			background-color: black;
+			background-color: #316a94;
 
 }
 
 div.menu a {
 			font-weight: bold;
-			color: white;
+			color: #ffac41;
 			text-decoration: none;
 }
 
@@ -39,12 +67,12 @@ div.menu td {
             width: 500px;
             text-align: center;
             height: 50px;
-			background-color: black;
+			background-color: #c5def6;
 
 }
 
 div.menu td.inmenu{
-			background-image: url(webimage/menu.png);
+			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
 			text-align: right;
 			background-position: fixed;
 			
@@ -52,22 +80,22 @@ div.menu td.inmenu{
 }
 
 div.menu td.inmenu a {
-			color: yellow;	
+			color: #ffac41;
 }
 
 
 div.menu td.inmenu_title {		
-			font-family: calibri;
+			font-family: Calibri, Arial, Sans-Serif;
             font-size: xx-large;
-            color: yellow;
+            color: #ffac41;
             text-align: center;
 			background-repeat: no-repeat;
-			background-color: black;
+			background-color: #c5def6;
 			background-position: right;
 }
 
 div.menu td.inmenu_lion {		
-			background-image: url(webimage/golden_lion.jpg);
+			background-image: url(webimage/goldenlion2.png); /*originals still in file if you want to change them back*/
 			background-repeat: no-repeat;
 			
 }
@@ -75,8 +103,8 @@ div.menu td.inmenu_lion {
 div.gallery {
         margin: 5%; 
         width: 90%;
-        border: 3px;
-        border-color: blue;
+        border: 0.5rem;
+        border-color: #316a94;
         border-style: solid;
 }
 div.gallery td {
@@ -96,7 +124,9 @@ div.gallery img {
 		max-width: 300px;
 		height: 25%;
 		width: 125%;
-
-		
-		
+}
+/*review padding added to move whole element away from other elements, looks better with separation*/
+div.review {
+    padding: 2rem;
+    
 }

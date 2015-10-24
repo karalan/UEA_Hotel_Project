@@ -14,38 +14,40 @@
       <div class="menu">
         <table>
           <tr>
-            <td><a href="index.html">HOME</a></td>
-            <td><a href="gallery.html">GALLERY</a></td>
-            <td><a href="booking.html" target="blank">BOOKING</a></td>
-            <td><a href="review.html">REVIEWS</a></td>
-            <td><a href="contact.html">CONTACTS</a></td>
+            <td><a href="index.html">Home</a></td>
+            <td><a href="gallery.html">Gallery</a></td>
+            <td><a href="booking.html" target="blank">Booking</a></td>
+            <td><a href="review.html">Reviews</a></td>
+            <td><a href="contact.html">Contact</a></td>
           </tr>
         </table>
       </div>
-      <div class="rating">
-        <p>How much you would rate our services</p>
-        <select size="1" name="rate">
-          <option value="1star">1</option>
-          <option value="2star">2</option>
-          <option value="3star">3</option>
-          <option value="4star">4</option>
-          <option value="5star">5</option>
-        </select>
-      </div>
-      <div id="dtext">
-        <h4>My comments</h4>
-        <input id="namebox" type="text" maxlength="32" size="20" value="title" />
-        <br/>
-        <textarea id="txt1" class="textbox" cols="40" rows="6"></textarea>
-      </div>
-      <div class="commbuttons">
-          <button class="navbutton" onclick="saveComment()">Save Comment</button>
-          </br>
-          <button class="navbutton" onclick="clearStorage()">Delete All Comments</button>
-      </div>
-      <div id="comments">
-        <h4>Comments</h4>
-        <div id="cmtlist"></div>
+      <div class="review">
+        <div class="rating">
+          <p>On a scale of 1 to 5 (1 being inadequate, 5 being outstanding), how would you rate our services?</p>
+          <select size="1" name="rate">
+            <option value="1star">1</option>
+            <option value="2star">2</option>
+            <option value="3star">3</option>
+            <option value="4star">4</option>
+            <option value="5star">5</option>
+          </select>
+        </div>
+        <div id="dtext">
+          <h4>Enter Comment</h4>
+          <input id="namebox" type="text" maxlength="32" size="20" value="title" />
+          <br/>
+          <textarea id="txt1" class="textbox" cols="40" rows="6"></textarea>
+        </div>
+        <div class="commbuttons">
+            <button class="navbutton" onclick="saveComment()">Save Comment</button>
+            </br>
+            <button class="navbutton" onclick="clearStorage()">Delete All Comments</button>
+        </div>
+        <div id="comments">
+          <h4>Previous Comments</h4>
+          <div id="cmtlist"></div>
+        </div>
       </div>
     </body>
   </html>
