@@ -23,28 +23,32 @@ div.main {
 }
 div.header {
 			font-family: Calibri, Arial, Sans-Serif; /*added other font options so can cascade if preferred font not available*/
-            font-size: xx-large;
+			font-size: medium;
             color: #ffac41;
-            height: 6rem;
-            text-align: center;
-            //line-height: 50px;
             background-repeat: no-repeat;
 			background-color: #c5def6;
-			//background-position: right;
-			
-}	
-/*header dl {       **Trying to get a header image to work. Will try again later**
-    margin: 0;
-    overflow: hidden;
+            display: table; /*Does not work for IE7 & Below*/
+            width:100%;
+            overflow: hidden;
+    /*This is all the stuff I've taken out for now
+    background-position: right;
+    line-height: 50px;
+    text-align: center;
+    height: 20rem;
+    font-size: xx-large;*/
 }
-header dt {
+.header img {
     float: left;
     padding: 1rem;
 }
-header dd {
-    float: right;
+.header p {
+    display: table-cell; /*Does not work for IE7 & Below*/
+    vertical-align: bottom;
+    //float: right; /*Float & Vertical Alignment don't work together*/
     padding: 1rem;
-}*/
+    text-align: right;
+
+}
 div.menu {
 			background-color: #316a94;
 
