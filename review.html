@@ -35,14 +35,15 @@
         </div>
         <div id="dtext">
           <h4>Enter Comment</h4>
-          <input id="namebox" type="text" maxlength="32" size="20" value="title" />
-          <br/>
-          <textarea id="txt1" class="textbox" cols="40" rows="6"></textarea>
+			<p>Name</p>
+          <input id="namebox" type="text" maxlength="32" size="20" value="Your Name Here" />
+			<p>Comment</p>
+          <textarea id="commbox" class="textbox" cols="40" rows="6"></textarea>
         </div>
         <div class="commbuttons">
+			<button class="navbutton" onclick="clearComment()">Clear Comment</button>
+			<br />
             <button class="navbutton" onclick="saveComment()">Save Comment</button>
-            </br>
-            <button class="navbutton" onclick="clearStorage()">Delete All Comments</button>
         </div>
         <div id="comments">
           <h4>Previous Comments</h4>
