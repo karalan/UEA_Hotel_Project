@@ -1,11 +1,12 @@
 /*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/ 
 
 body {
+    font-family: Calibri, Arial, Sans-Serif; /*added other font options so can cascade if preferred font not available*/
     margin:0;
     padding:0;
     background-color: #c5def6; /*colour declared for if BG img fails to load*/
     background-image: url(resources/hotel_outside.JPG);
-    //padding: 2rem; /*can't decide whether to change image from full bg or not*/
+    padding: 2rem; /*can't decide whether to change image from full bg or not*/
     background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed; /*means if content increases, BG image will remain static*/
@@ -14,22 +15,16 @@ body.gallery{
     background-color: #c5def6;
     background-image: none; /*This removes the background image on the gallery page, otherwise it looks awful*/
 }
-div.main {
-    margin: 2rem;
-    background-color: rgba(255,255,255,0.2); /*have to use RGBA value in order to have transparency-->*/
-    width: 30%;
-
-
-}
 div.header {
-			font-family: Calibri, Arial, Sans-Serif; /*added other font options so can cascade if preferred font not available*/
-			font-size: medium;
-            color: #ffac41;
+			border-radius: 1rem;
             background-repeat: no-repeat;
 			background-color: #c5def6;
+            margin-bottom: 1rem;
             display: table; /*Does not work for IE7 & Below*/
             width:100%;
             overflow: hidden;
+            font-size: medium;
+            color: #ffac41;
     /*This is all the stuff I've taken out for now
     background-position: right;
     line-height: 50px;
@@ -44,9 +39,24 @@ div.header {
 .header p {
     display: table-cell; /*Does not work for IE7 & Below*/
     vertical-align: bottom;
-    //float: right; /*Float & Vertical Alignment don't work together*/
+    /*float: right; /*Float & Vertical Alignment don't work together*/
     padding: 1rem;
     text-align: right;
+
+}
+div.main {
+    background-color: rgba(255,255,255,0.6); /*have to use RGBA value in order to have transparency-->*/
+    width: 30%;
+
+
+}
+.main h2 {
+    font-size: x-large;
+    color: #ffac41;
+
+}
+.main p {
+    color: #316a94;
 
 }
 div.menu {
@@ -61,11 +71,12 @@ div.menu a {
 }
 
 div.menu table {
-	
+    border-radius: 1rem;
+
 }
 
 div.menu td {
-			font-family: calibri;
+			font-family: Calibri, Arial, Sans-Serif;
 			font-size: x-large;
             min-width: 50px;
             width: 500px;
@@ -78,7 +89,7 @@ div.menu td {
 div.menu td.inmenu{
 			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
 			text-align: right;
-			background-position: fixed;
+			//background-position: fixed;
 			
 			
 }
