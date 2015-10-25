@@ -6,10 +6,10 @@ body {
     padding:0;
     background-color: #c5def6; /*colour declared for if BG img fails to load*/
     background-image: url(resources/hotel_outside.JPG);
-    padding: 2rem; /*can't decide whether to change image from full bg or not*/
-    background-size: 100%;
     background-repeat: no-repeat;
     background-attachment: fixed; /*means if content increases, BG image will remain static*/
+    background-size: 100%;
+    padding: 2rem;
 }
 body.gallery{
     background-color: #c5def6;
@@ -47,8 +47,6 @@ div.header {
 div.main {
     background-color: rgba(255,255,255,0.6); /*have to use RGBA value in order to have transparency-->*/
     width: 30%;
-
-
 }
 .main h2 {
     font-size: x-large;
@@ -71,17 +69,18 @@ div.menu a {
 }
 
 div.menu table {
-    border-radius: 1rem;
+
 
 }
 
 div.menu td {
 			font-family: Calibri, Arial, Sans-Serif;
 			font-size: x-large;
-            min-width: 50px;
-            width: 500px;
+            min-width: 5rem;
+            width: 50rem;
             text-align: center;
-            height: 50px;
+            height: 3rem;
+            background-image: url(webimage/menu2.png);
 			background-color: #c5def6;
 
 }
