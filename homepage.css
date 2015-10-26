@@ -159,6 +159,7 @@ div.review {
 	margin:4px;
 	height: 30%;
 	width: 30%;
+	display: inline-block;
 }
 
 #gallery2 {
@@ -166,9 +167,8 @@ div.review {
 	text-align: center;
 }
 
-#images_thumbnails {
-    width: 80%; /* width of slide + left and right margins */
-    height: 100px;
-	display: inline-block;
-	white-space: nowarp;
+#images_thumbnails img{
+	height: 10%;
+	width: 10%;
+	
 }
