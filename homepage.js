@@ -62,4 +62,17 @@
 		{
 			var cmtlist = localStorage.getItem('comm');
 			$('#cmtlist').append(cmtlist);
+			
+			$('#images_thumbnails a').click(function(){
+				var newImageSrc = $(this).attr('href');
+				$('#images_full img').attr({'src': newImageSrc });
+				return false;
+			});	
+			
 		};
+
+
+		
+		
+		
+		
