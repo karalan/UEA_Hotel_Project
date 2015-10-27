@@ -48,6 +48,7 @@ div.main {
     background-color: rgba(255,255,255,0.6); /*have to use RGBA value in order to have transparency-->*/
     margin-top: 1rem;
     padding: 0.5rem;
+    border: solid 0.2rem #316a94;
     width: 30%;
     float: left;
 }
@@ -128,7 +129,7 @@ div.review {
 #gallery {
 	display: block;
 	text-align: center;
-	border: 3px solid black;
+	border: 3px solid #316a94;
 	background-color: rgba(0,50,50,0.7);
 	margin-top: 3%;
 	border-radius: 10%;
