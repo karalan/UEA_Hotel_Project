@@ -1,4 +1,4 @@
-/*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/ 
+/*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/
 
 body {
     font-family: Calibri, Arial, Sans-Serif; /*added other font options so can cascade if preferred font not available*/
@@ -46,14 +46,17 @@ div.header {
 }
 div.main {
     background-color: rgba(255,255,255,0.6); /*have to use RGBA value in order to have transparency-->*/
+    margin-top: 1rem;
+    padding: 0.5rem;
     width: 30%;
+    float: left;
 }
 .main h2 {
     font-size: x-large;
     color: #ffac41;
 
 }
-.main p {
+.main p, li {
     color: #316a94;
 
 }
@@ -89,8 +92,8 @@ div.menu td.inmenu{
 			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
 			text-align: right;
 			background-position: fixed;
-			
-			
+
+
 }
 
 div.menu td.inmenu a {
@@ -98,7 +101,7 @@ div.menu td.inmenu a {
 }
 
 
-div.menu td.inmenu_title {		
+div.menu td.inmenu_title {
 			font-family: Calibri, Arial, Sans-Serif;
             font-size: xx-large;
             color: #ffac41;
@@ -108,10 +111,10 @@ div.menu td.inmenu_title {
 			background-position: right;
 }
 
-div.menu td.inmenu_lion {		
+div.menu td.inmenu_lion {
 			background-image: url(webimage/goldenlion2.png); /*originals still in file if you want to change them back*/
 			background-repeat: no-repeat;
-			
+
 }
 
 /*review padding added to move whole element away from other elements, looks better with separation*/
