@@ -13,7 +13,7 @@ body {
 }
 body.gallery{
     background-color: #c5def6;
-    background-image: none; /*This removes the background image on the gallery page, otherwise it looks awful*/
+    /*background-image: none; /*This removes the background image on the gallery page, otherwise it looks awful*/
 }
 div.header {
 			border-radius: 1rem;
@@ -88,7 +88,7 @@ div.menu td {
 div.menu td.inmenu{
 			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
 			text-align: right;
-			//background-position: fixed;
+			background-position: fixed;
 			
 			
 }
@@ -114,31 +114,6 @@ div.menu td.inmenu_lion {
 			
 }
 
-div.gallery {
-        margin: 5%; 
-        width: 90%;
-        border: 0.5rem;
-        border-color: #316a94;
-        border-style: solid;
-}
-div.gallery td {
-		padding-left: 1%;
-		padding-right: 5%;
-		height: auto;
-        width: 1000px;
-        min-width: 50px;
-        text-align: center;
-}
-div.gallery h1 {
-        text-align: center;
-}
-
-div.gallery img {
-		max-height: 300px;
-		max-width: 300px;
-		height: 25%;
-		width: 125%;
-}
 /*review padding added to move whole element away from other elements, looks better with separation*/
 div.review {
     padding: 2rem;
@@ -147,28 +122,29 @@ div.review {
     background-color: rgba(255,255,255,0.6);
 }
 
-#images_full img{
-	padding: 3px;
-	border: 1px solid black;
-	height: 75%;
-	width: 75%;
-	
-}
-
-#images_thumbnails img{
-	margin:4px;
-	height: 30%;
-	width: 30%;
-	display: inline-block;
-}
-
-#gallery2 {
+#gallery {
 	display: block;
 	text-align: center;
+	border: 3px solid black;
+	background-color: rgba(0,50,50,0.7);
+	margin-top: 3%;
+	border-radius: 10%;
+}
+
+#images_full img{
+	margin-top: 2%;
+	border: 2px solid blue;
+	border-radius: 10%;
+	height: 500px; /*Adding fixed height so the page would not move when changing images"*/
 }
 
 #images_thumbnails img{
+	text-align: center;
+	vertical-align: middle;
+	margin:4px;
 	height: 10%;
 	width: 10%;
-	
+	display: inline-block;
+	border: 1px solid blue;
+	border-radius: 10%;
 }
