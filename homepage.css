@@ -52,6 +52,12 @@ div.main {
     width: 30%;
     float: left;
 }
+div.map{
+    float: right;
+    width: 400px;
+    height: 400px;
+    margin: 0.5rem;
+}
 .main h2 {
     font-size: x-large;
     color: #ffac41;

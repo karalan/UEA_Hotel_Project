@@ -3,6 +3,24 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
 	<link type="text/css" rel="stylesheet" href="homepage.css">
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+	  function initialize() {
+		  var mapCanvas = document.getElementById('map');
+		  var mapOptions = {
+		  center: new google.maps.LatLng(52.9398128, 0.4865628),
+		  zoom: 14,
+		  mapTypeId: google.maps.MapTypeId.ROADMAP
+		};
+		  //var marker = new google.maps.Marker({--Need to fix this bit and then move all of this out to jscript
+   // position: LatLng(52.9398128, 0.4865628),
+   // map: map,
+   // title: 'The Golden Lion Hotel'
+  //})
+		var map = new google.maps.Map(mapCanvas, mapOptions)
+	  }
+	  google.maps.event.addDomListener(window, 'load', initialize);
+	</script>
 	<title>Directions</title>
 </head>
 <body>
@@ -22,6 +40,8 @@
 		<td><a href="contact.html">Contact</a></td>
 	  </tr>
 	</table>
+  </div>
+  <div id="map" class="map">
   </div>
 </body>
 </html>

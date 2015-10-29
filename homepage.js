@@ -2,12 +2,12 @@
 	function clearComment(){
 		$('#commbox').val('');
 		$('#namebox').val('Your Name Here');
-		
+
 	}; //changed clear function to this so that users can't clear comments from other users but admin can.
 	function saveComment(){
 		var cname = $('#namebox').val();
 		var ctext = $('#commbox').val();
-		
+
 			//Cheching if CLEARALL was written, if yes, will clear all comments.
 			//Moved here, because CLEARALL comment was displayed just before clearing all the comments.
 			if ($('#namebox').val () === 'CLEARALL'){
@@ -39,11 +39,11 @@
 		var tmonth = new Date().getMonth();
 		var tyear = new Date().getFullYear();
 
-		
+
 		//This section is for taking the rate which user inputed and transfer it to text
 		var hrate = $('#hotelrate').val();
-			
-		//This section will check which rating was given and how many start shuold be displayed in the comments	
+
+		//This section will check which rating was given and how many start shuold be displayed in the comments
 			if (hrate === '1')
 				{
 					var hRateStar = ('&#9734');
@@ -63,7 +63,7 @@
 				else{
 					var hRateStar = ('&#9734&#9734&#9734&#9734&#9734');
 				}}}}
-		
+
 		var cmtlist = '<p><class="cmtname" span><b>'+cname+' rated '+hRateStar+' stars '+tday+'/'+(tmonth+1)+'/'+tyear+' '+thour+':'+tminutes+'</b></span></br>'+ctext+'</p>';
 		$('#cmtlist').append(cmtlist);
 
@@ -74,7 +74,7 @@
 		//Clearing input boxes from any text
 		clearComment();
 			};};
-		
+
 	//This function will clear the local storage from any data that are displayed in the comments.
 	function clearStorage()
 		{
@@ -89,14 +89,23 @@
 				var newImageSrc = $(this).attr('href');
 				$('#images_full img').attr({'src': newImageSrc });
 				return false;
-			});	
-			
+			});
+
 			//This part will load comment from local storage to display them when the page is refreshed
 			var cmtlist = localStorage.getItem('comm');
-			$('#cmtlist').append(cmtlist);	
-			
+			$('#cmtlist').append(cmtlist);
+
 		};
-		
-		
-		
-		
+//This is to create the map
+	//function initialize() {
+	//	var mapCanvas = document.getElementById('map');
+	//	var mapOptions = {
+	//	  center: new google.maps.LatLng(44.5403, -78.5463),
+	//	  zoom: 8,
+	//	  mapTypeId: google.maps.MapTypeId.ROADMAP
+	//	}
+	//	var map = new google.maps.Map(mapCanvas, mapOptions);
+	//}
+//google.maps.event.addDomListener(window, 'load', initialize);
+
+
