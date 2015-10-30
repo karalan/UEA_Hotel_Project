@@ -45,12 +45,13 @@ div.header {
 
 }
 div.main {
-    background-color: rgba(255,255,255,0.6); /*have to use RGBA value in order to have transparency-->*/
+    background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
     margin-top: 1rem;
     padding: 0.5rem;
     border: solid 0.2rem #316a94;
     width: 30%;
     float: left;
+	min-width: 400px;
 }
 .main h2 {
     font-size: x-large;
@@ -58,7 +59,7 @@ div.main {
 
 }
 .main p, li {
-    color: #316a94;
+    color: #FFD11A;
 
 }
 div.menu {
@@ -97,12 +98,12 @@ div.menu td.inmenu{
 
 }
 
-div.menu td.inmenu a {
+.menu td.inmenu a {
 			color: #ffac41;
 }
 
 
-div.menu td.inmenu_title {
+.menu td.inmenu_title {
 			font-family: Calibri, Arial, Sans-Serif;
             font-size: xx-large;
             color: #ffac41;
@@ -112,7 +113,7 @@ div.menu td.inmenu_title {
 			background-position: right;
 }
 
-div.menu td.inmenu_lion {
+.menu td.inmenu_lion {
 			background-image: url(webimage/goldenlion2.png); /*originals still in file if you want to change them back*/
 			background-repeat: no-repeat;
 
@@ -151,4 +152,8 @@ div.review {
 	display: inline-block;
 	border: 1px solid blue;
 	border-radius: 10%;
+}
+
+{
+	border: solid blue 2px;
 }
