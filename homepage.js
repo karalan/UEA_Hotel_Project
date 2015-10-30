@@ -63,11 +63,7 @@
 				else{
 					var hRateStar = ('&#9734&#9734&#9734&#9734&#9734');
 				}}}}
-<<<<<<< HEAD
 
-=======
-				
->>>>>>> origin/master
 		var cmtlist = '<p><class="cmtname" span><b>'+cname+' rated '+hRateStar+' stars '+tday+'/'+(tmonth+1)+'/'+tyear+' '+thour+':'+tminutes+'</b></span></br>'+ctext+'</p>';
 		$('#cmtlist').append(cmtlist);
 
@@ -85,18 +81,14 @@
 		localStorage.removeItem('comm');
 		window.location.reload();
 		};
-	
-	window.onload = callCMT;
-	function callCMT(){
-					//This part will load comment from local storage to display them when the page is refreshed
-			var cmtlist = localStorage.getItem('comm');
-			$('#cmtlist').append(cmtlist);
-			
+
+	window.onload = function loadImageGallery()
+		{
+			//This part will make images in the thumbnail be displayed in a bigger picture above them when pressed on them.
 			$('#images_thumbnails a').click(function(){
 				var newImageSrc = $(this).attr('href');
 				$('#images_full img').attr({'src': newImageSrc });
 				return false;
-<<<<<<< HEAD
 			});
 
 			//This part will load comment from local storage to display them when the page is refreshed
@@ -117,21 +109,3 @@
 //google.maps.event.addDomListener(window, 'load', initialize);
 
 
-=======
-			})
-			alert('test');
-	}
-		
-	
-	//Scripts for map
-	function initialize() {
-		
-        var mapCanvas = document.getElementById('map');
-        var mapOptions = {
-          center: new google.maps.LatLng(44.5403, -78.5463),
-          zoom: 8,
-          mapTypeId: google.maps.MapTypeId.ROADMAP
-        }
-        var map = new google.maps.Map(mapCanvas, mapOptions)
-      }	
->>>>>>> origin/master
