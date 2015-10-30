@@ -63,7 +63,7 @@
 				else{
 					var hRateStar = ('&#9734&#9734&#9734&#9734&#9734');
 				}}}}
-		
+				
 		var cmtlist = '<p><class="cmtname" span><b>'+cname+' rated '+hRateStar+' stars '+tday+'/'+(tmonth+1)+'/'+tyear+' '+thour+':'+tminutes+'</b></span></br>'+ctext+'</p>';
 		$('#cmtlist').append(cmtlist);
 

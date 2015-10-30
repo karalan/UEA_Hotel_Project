@@ -10,6 +10,7 @@ body {
     background-attachment: fixed; /*means if content increases, BG image will remain static*/
     background-size: 100%;
     padding: 2rem;
+	color: #FFD11A;
 }
 body.gallery{
     background-color: #c5def6;
@@ -119,13 +120,7 @@ div.menu td.inmenu{
 
 }
 
-/*review padding added to move whole element away from other elements, looks better with separation*/
-div.review {
-    padding: 2rem;
-}
-#cmtlist {
-    background-color: rgba(255,255,255,0.6);
-}
+
 
 #gallery {
 	display: block;
@@ -154,6 +149,35 @@ div.review {
 	border-radius: 10%;
 }
 
-{
-	border: solid blue 2px;
+/*Styles for Review page*/
+div.review{
+	background-color: rgba(0,60,60,0.6);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 0.2rem #316a94;
+    width: 80%;
+    float: left;
+	min-width: 400px;
+	padding: 2rem; /*review padding added to move whole element away from other elements, looks better with separation*/
+}
+
+/*Adding the same background to ids*/
+#hotelrate,
+#namebox,
+#commbox{
+	background: #c5def6;
+}
+
+div.commbuttons button{
+	margin-top: 1rem;
+}
+
+div.commbuttons button{
+	border: solid #FFD11A 2px;
+	border-radius: 5px;
+	background: rgba(0,150,150,0.8);
+}
+
+#cmtlist p{ /*This will separate comment from each other*/
+    background-color: rgba(0,80,80,0.8);
 }
