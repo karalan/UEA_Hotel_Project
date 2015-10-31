@@ -3,9 +3,11 @@
 <head>
 	<meta http-equiv="Content-type" content="text/html;charset=utf-8" />
 	<link type="text/css" rel="stylesheet" href="homepage.css">
+	<script src="https://maps.googleapis.com/maps/api/js">
+	</script>
+	<script>google.maps.event.addDomListener(window, 'load', initialize); 
+	</script>
 	<title>Directions</title>
-	<script src="https://maps.googleapis.com/maps/api/js"></script>
-
 </head>
 <body>
   <div class="header">
@@ -25,12 +27,20 @@
 	  </tr>
 	</table>
   </div>
-  
-  <div class="directions">
-	<div id="map">
-		
-	
-	</div>
+  <div id= directions" class="main">
+	<h3>From A149 - South</h3>
+	  <p>Head down Redgate Hill, upon passing the 'Welcome To Hunstanton' sign take the third exit on the Oasis Way
+		  Roundabout, onto King's Lynn Road. Continue on King's Lynn Road for 4 miles.</p>
+	  <p>Just upon passing the Recreation Ground on your right, turn left onto Greevegate.</p>
+	  <p>Continue down Greevegate for 200 metres, turning right just after the Town Hall and before The Green.</p>
+	  <p>The Hotel will be on your right, ample car parking is located directly outside with further spaces to the rear.</p>
+	<h3>From A149 - North</h3>
+	  	<p>After driving through Old Hunstanton, follow the road left onto Cromer Road.</p>
+	  	<p>Continue on Cromer Road for 1 mile. Upon passing the Recreation Ground on your right, turn right onto Greevegate.</p>
+	  	<p>Continue down Greevegate for 200 metres, turning right just after the Town Hall and before The Green.</p>
+		<p>The Hotel will be on your right, ample car parking is located directly outside with further spaces to the rear.</p>
+  </div>
+  <div id="map" class="map">
   </div>
 </body>
 </html>
