@@ -98,7 +98,7 @@
 //Embedding of Google Map
 	 function initialize() {
  		var mapCanvas = document.getElementById('map'); 
-	  	var LatLng = new google.maps.LatLng(52.9398128, 0.4865628)
+	  	var LatLng = new google.maps.LatLng(52.940363, 0.488892)
 		var mapOptions = { 
 			center: LatLng, 
 			zoom: 14, 
