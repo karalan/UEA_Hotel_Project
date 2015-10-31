@@ -43,8 +43,8 @@ div.header {
     /*float: right; /*Float & Vertical Alignment don't work together*/
     padding: 1rem;
     text-align: right;
-
 }
+
 div.main {
     background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
     margin-top: 1rem;
@@ -57,28 +57,18 @@ div.main {
 .main h2 {
     font-size: x-large;
     color: #ffac41;
-
 }
 .main p, li {
     color: #FFD11A;
-
 }
 div.menu {
 			background-color: #316a94;
-
 }
-
 div.menu a {
 			font-weight: bold;
 			color: #ffac41;
 			text-decoration: none;
 }
-
-div.menu table {
-
-
-}
-
 div.menu td {
 			font-family: Calibri, Arial, Sans-Serif;
 			font-size: x-large;
@@ -90,20 +80,14 @@ div.menu td {
 			background-color: #c5def6;
 
 }
-
 div.menu td.inmenu{
 			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
 			text-align: right;
 			background-position: fixed;
-
-
 }
-
 .menu td.inmenu a {
 			color: #ffac41;
 }
-
-
 .menu td.inmenu_title {
 			font-family: Calibri, Arial, Sans-Serif;
             font-size: xx-large;
@@ -115,13 +99,9 @@ div.menu td.inmenu{
 }
 
 .menu td.inmenu_lion {
-			background-image: url(webimage/goldenlion2.png); /*originals still in file if you want to change them back*/
+			background-image: url(webimage/goldenlion2.png);
 			background-repeat: no-repeat;
-
 }
-
-
-
 #gallery {
 	display: block;
 	text-align: center;
@@ -137,7 +117,6 @@ div.menu td.inmenu{
 	border-radius: 10%;
 	height: 500px; /*Adding fixed height so the page would not move when changing images"*/
 }
-
 #images_thumbnails img{
 	text-align: center;
 	vertical-align: middle;
@@ -148,8 +127,7 @@ div.menu td.inmenu{
 	border: 1px solid blue;
 	border-radius: 10%;
 }
-
-/*Styles for Review page*/
+/*Review Page*/
 div.review{
 	background-color: rgba(0,60,60,0.6);
     margin-top: 1rem;
@@ -160,31 +138,31 @@ div.review{
 	min-width: 400px;
 	padding: 2rem; /*review padding added to move whole element away from other elements, looks better with separation*/
 }
-
 /*Adding the same background to ids*/
 #hotelrate,
 #namebox,
 #commbox{
 	background: #c5def6;
 }
-
 div.commbuttons button{
 	margin-top: 1rem;
 }
-
 div.commbuttons button{
 	border: solid #FFD11A 2px;
 	border-radius: 5px;
 	background: rgba(0,150,150,0.8);
 }
-
 #cmtlist p{ /*This will separate comment from each other*/
     background-color: rgba(0,80,80,0.8);
 }
-
-/*Direction page styles*/
+/*Direction Page*/
 #map{
-	width: 500px;
-	height: 400px;
+	width: 30rem;
+	height: 30rem;
+    float: right;
+    margin: 0.5rem;
 	border: solid red 5px;
+}
+#directions {
+    background-color: rgba(0, 60, 60, 0.6);
 }
