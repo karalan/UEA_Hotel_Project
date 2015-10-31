@@ -1,7 +1,7 @@
 /*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/
 
 body {
-    font-family: Calibri, Arial, Sans-Serif; /*added other font options so can cascade if preferred font not available*/
+    font-family: Calibri, Arial, Sans-Serif;
     margin:0;
     padding:0;
     background-color: #c5def6; /*colour declared for if BG img fails to load*/
@@ -11,10 +11,6 @@ body {
     background-size: 100%;
     padding: 2rem;
 	color: #FFD11A;
-}
-body.gallery{
-    background-color: #c5def6;
-    /*background-image: none; /*This removes the background image on the gallery page, otherwise it looks awful*/
 }
 div.header {
 			border-radius: 1rem;
@@ -26,12 +22,6 @@ div.header {
             overflow: hidden;
             font-size: medium;
             color: #ffac41;
-    /*This is all the stuff I've taken out for now
-    background-position: right;
-    line-height: 50px;
-    text-align: center;
-    height: 20rem;
-    font-size: xx-large;*/
 }
 .header img {
     float: left;
@@ -156,13 +146,17 @@ div.commbuttons button{
     background-color: rgba(0,80,80,0.8);
 }
 /*Direction Page*/
-#map{
+.directions{
+    background-color: rgba(0, 60, 60, 0.6);
+    width: 30rem;
+    float: left;
+    margin: 0.5rem;
+}
+.map{
 	width: 30rem;
 	height: 30rem;
     float: right;
     margin: 0.5rem;
 	border: solid red 5px;
 }
-#directions {
-    background-color: rgba(0, 60, 60, 0.6);
-}
+
