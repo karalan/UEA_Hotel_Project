@@ -110,5 +110,9 @@
     		title: 'The Golden Lion Hotel'
   });
   } 
+//expanding in div
+function expand(){
+	$('.expander').simpleexpand();
+}
 
 
