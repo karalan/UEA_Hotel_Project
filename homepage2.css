@@ -1,0 +1,162 @@
+/*WE NEED TO MAKE SURE WE ADD IN CSS FOR @media that rescales for mobile devices*/
+
+body {
+    font-family: Calibri, Arial, Sans-Serif;
+    margin:0;
+    padding:0;
+    background-color: #c5def6; /*colour declared for if BG img fails to load*/
+    background-image: url(resources/hotel_outside.JPG);
+    background-repeat: no-repeat;
+    background-attachment: fixed; /*means if content increases, BG image will remain static*/
+    background-size: 100%;
+    padding: 2rem;
+	color: #FFD11A;
+}
+div.header {
+			border-radius: 1rem;
+            background-repeat: no-repeat;
+			background-color: #c5def6;
+            margin-bottom: 1rem;
+            display: table; /*Does not work for IE7 & Below*/
+            width:100%;
+            overflow: hidden;
+            font-size: medium;
+            color: #ffac41;
+}
+.header img {
+    float: left;
+    padding: 1rem;
+}
+.header p {
+    display: table-cell; /*Does not work for IE7 & Below*/
+    vertical-align: bottom;
+    /*float: right; /*Float & Vertical Alignment don't work together*/
+    padding: 1rem;
+    text-align: right;
+}
+
+div.main {
+    background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 0.2rem #316a94;
+    width: 60%;
+    float: left;
+	min-width: 400px;
+}
+.main h2 {
+    font-size: x-large;
+    color: #ffac41;
+}
+.main p, li {
+    color: #FFD11A;
+}
+div.menu {
+			background-color: #316a94;
+}
+div.menu a {
+			font-weight: bold;
+			color: #ffac41;
+			text-decoration: none;
+}
+div.menu td {
+			font-family: Calibri, Arial, Sans-Serif;
+			font-size: x-large;
+            min-width: 5rem;
+            width: 50rem;
+            text-align: center;
+            height: 3rem;
+            background-image: url(webimage/menu2.png);
+			background-color: #c5def6;
+
+}
+div.menu td.inmenu{
+			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
+			text-align: right;
+			background-position: fixed;
+}
+.menu td.inmenu a {
+			color: #ffac41;
+}
+.menu td.inmenu_title {
+			font-family: Calibri, Arial, Sans-Serif;
+            font-size: xx-large;
+            color: #ffac41;
+            text-align: center;
+			background-repeat: no-repeat;
+			background-color: #c5def6;
+			background-position: right;
+}
+
+.menu td.inmenu_lion {
+			background-image: url(webimage/goldenlion2.png);
+			background-repeat: no-repeat;
+}
+#gallery {
+	display: block;
+	text-align: center;
+	border: 3px solid #316a94;
+	background-color: rgba(0,50,50,0.7);
+	margin-top: 3%;
+	border-radius: 10%;
+}
+
+#images_full img{
+	margin-top: 2%;
+	border: 2px solid blue;
+	border-radius: 10%;
+	height: 500px; /*Adding fixed height so the page would not move when changing images"*/
+}
+#images_thumbnails img{
+	text-align: center;
+	vertical-align: middle;
+	margin:4px;
+	height: 10%;
+	width: 10%;
+	display: inline-block;
+	border: 1px solid blue;
+	border-radius: 10%;
+}
+/*Review Page*/
+div.review{
+	background-color: rgba(0,60,60,0.6);
+    margin-top: 1rem;
+    padding: 0.5rem;
+    border: solid 0.2rem #316a94;
+    width: 80%;
+    float: left;
+	min-width: 400px;
+	padding: 2rem; /*review padding added to move whole element away from other elements, looks better with separation*/
+}
+/*Adding the same background to ids*/
+#hotelrate,
+#namebox,
+#commbox{
+	background: #c5def6;
+}
+div.commbuttons button{
+	margin-top: 1rem;
+}
+div.commbuttons button{
+	border: solid #FFD11A 2px;
+	border-radius: 5px;
+	background: rgba(0,150,150,0.8);
+}
+#cmtlist p{ /*This will separate comment from each other*/
+    background-color: rgba(0,80,80,0.8);
+}
+/*Direction Page*/
+.directions{
+    background-color: rgba(0, 60, 60, 0.6);
+    width: 30rem;
+    float: left;
+    margin: 0.5rem;
+}
+.map{
+	width: 30rem;
+	height: 30rem;
+    float: right;
+    margin: 0.5rem;
+	border: solid red 5px;
+}
+
