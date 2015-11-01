@@ -159,4 +159,9 @@ div.commbuttons button{
     margin: 0.5rem;
 	border: solid red 5px;
 }
+/*Local Area Page*/
+#localarea button{
+font-size: x-large;
+    color: #ffac41;
+}
 
