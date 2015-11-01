@@ -165,9 +165,13 @@ div.commbuttons button{
     font-weight: bold;
     color: #ffac41;
     background: rgba(0,60,60,0.6);
+    width: 10rem;
+    float:left;
 }
-#localcontent {
+.localcontent {
     border: solid 0.2rem #316a94;
+    display: none;
+    float: left;
 }
 
 
