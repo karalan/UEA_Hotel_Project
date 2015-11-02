@@ -54,6 +54,15 @@ div.main {
 .main tr, td{
     border: solid 0.1rem #316a94;
 }
+.main a {
+    color: #ffac41;
+}
+.main a:visited{
+    color: #ee8331;
+}
+.main a:hover{
+    color: #ac5a20;
+}
 div.menu {
 			background-color: #316a94;
 }
@@ -159,9 +168,13 @@ div.commbuttons button{
 	height: 30rem;
     float: right;
     margin: 0.5rem;
-	border: solid red 5px;
+    margin-top: 3%;
+	border: solid 0.2rem #316a94;
 }
 /*Local Area Page*/
+#localarea{
+    overflow: auto;
+}
 #localarea button {
     font-size: x-large;
     font-weight: bold;
