@@ -40,7 +40,7 @@ div.main {
     margin-top: 1rem;
     padding: 0.5rem;
     border: solid 0.2rem #316a94;
-    width: 60%;
+    width: 30%;
     float: left;
 	min-width: 400px;
 }
@@ -160,8 +160,18 @@ div.commbuttons button{
 	border: solid red 5px;
 }
 /*Local Area Page*/
-#localarea button{
-font-size: x-large;
+#localarea button {
+    font-size: x-large;
+    font-weight: bold;
     color: #ffac41;
+    background: rgba(0,60,60,0.6);
+    width: 10rem;
+    float:left;
 }
+.localcontent {
+    border: solid 0.2rem #316a94;
+    display: none;
+    float: left;
+}
+
 
