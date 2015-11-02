@@ -37,11 +37,11 @@ div.header {
 
 div.main {
     background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
-    margin-top: 1rem;
+    margin: auto;
+    margin-top: 3%;
     padding: 0.5rem;
     border: solid 0.2rem #316a94;
-    width: 30%;
-    float: left;
+    width: 70%;
 	min-width: 400px;
 }
 .main h2 {
@@ -50,6 +50,9 @@ div.main {
 }
 .main p, li {
     color: #FFD11A;
+}
+.main table, tr, td{
+    border: solid 0.1rem #316a94;;
 }
 div.menu {
 			background-color: #316a94;
