@@ -82,7 +82,7 @@
 		window.location.reload();
 		};
 
-	window.onload = callCMT; //TODO: This is being called on every page, in order to only call on comment page the listener needs to be moved.
+	window.onload = callCMT;
 	function callCMT(){
 					//This part will load comment from local storage to display them when the page is refreshed
 			var cmtlist = localStorage.getItem('comm');
