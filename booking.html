@@ -3,8 +3,9 @@
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
     <link type="text/css" rel="stylesheet" href="homepage2.css">
+	  	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
+		<script src="scripts/booking.js"></script>
     <title>Booking Page</title>
-    <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
   </head>
   <body>
     <div class="header">
@@ -25,31 +26,35 @@
 	</table>
 	</div>
 	<div id="roomrates" class = "main">
-		<table>
-			<tr>
-				<td><h3>Room Type</h3></td>
-				<td><h3>B&B Rate <sup><a href="" alt="B&B Rate Means Breakfast is Included in the price quoted">[?]</a></sup></h3></td>
-				<!--want to put an info button in here for what B&B and Half Board Mean-->
-				<td><h3>Half Board Rate <sup>[?]</sup></h3></td>
-			</tr>
-			<tr>
-				<td>Single Room</td>
-				<td>£67</td>
-				<td>£87</td>
-			</tr>
-			<tr>
-				<td>Double Room</td>
-				<td>£87</td>
-				<td>£107</td>
-			</tr>
-			<tr>
-				<td>Premium Room</td>
-				<td>£127</td>
-				<td>£147</td>
-			</tr>
-		</table>
-	</br>
-		Redirecting you to our booking partner .....
+		<span>
+		<div id="rates">
+			<table>
+				<tr>
+					<td><h3>Room Type</h3></td>
+					<td><h3>B&B Rate<img src="resources/helpicon.png" id="help1"></h3></td>
+					<td><h3>Half Board Rate<img src="resources/helpicon.png" id="help2"></h3></td>
+				</tr>
+				<tr>
+					<td>Single Room</td>
+					<td>£67</td>
+					<td>£87</td>
+				</tr>
+				<tr>
+					<td>Double Room</td>
+					<td>£87</td>
+					<td>£107</td>
+				</tr>
+				<tr>
+					<td>Premium Room</td>
+					<td>£127</td>
+					<td>£147</td>
+				</tr>
+			</table>
+		</div>
+		<div id="booking">
+			<button onclick="redirect()" id="booknow">Book Now</button>
+		</div>
+		</span>
 	</div>
   </body>
 </html>
