@@ -37,7 +37,8 @@ div.header {
 
 div.main {
     background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
-    margin-top: 1rem;
+    margin: auto;
+    margin-top: 3%;
     padding: 0.5rem;
     border: solid 0.2rem #316a94;
     width: 30%;
@@ -50,6 +51,9 @@ div.main {
 }
 .main p, li {
     color: #FFD11A;
+}
+.main tr, td{
+    border: solid 0.1rem #316a94;;
 }
 div.menu {
 			background-color: #316a94;
@@ -68,10 +72,9 @@ div.menu td {
             height: 3rem;
             background-image: url(webimage/menu2.png);
 			background-color: #c5def6;
-
 }
 div.menu td.inmenu{
-			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
+			background-image: url(webimage/menu2.png);
 			text-align: right;
 			background-position: fixed;
 }
@@ -172,6 +175,28 @@ div.commbuttons button{
     border: solid 0.2rem #316a94;
     display: none;
     float: left;
+}
+/*Booking Page*/
+#roomrates{
+    overflow: auto;
+}
+#booknow{
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffac41;
+    background: rgba(0,60,60,0.6);
+    width: 10rem;
+    float: right;
+}
+#rates{
+    float: left;
+    width: 50%;
+    display:inline-block;
+}
+#booking{
+    float: right;
+    width: 50%;
+    display:inline-block;
 }
 
 

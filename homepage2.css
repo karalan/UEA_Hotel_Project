@@ -51,8 +51,8 @@ div.main {
 .main p, li {
     color: #FFD11A;
 }
-.main table, tr, td{
-    border: solid 0.1rem #316a94;;
+.main tr, td{
+    border: solid 0.1rem #316a94;
 }
 div.menu {
 			background-color: #316a94;
@@ -74,7 +74,7 @@ div.menu td {
 
 }
 div.menu td.inmenu{
-			background-image: url(webimage/menu2.png); /*originals still in file if you want to change them back*/
+			background-image: url(webimage/menu2.png);
 			text-align: right;
 			background-position: fixed;
 }
@@ -90,7 +90,6 @@ div.menu td.inmenu{
 			background-color: #c5def6;
 			background-position: right;
 }
-
 .menu td.inmenu_lion {
 			background-image: url(webimage/goldenlion2.png);
 			background-repeat: no-repeat;
@@ -175,6 +174,28 @@ div.commbuttons button{
     border: solid 0.2rem #316a94;
     display: none;
     float: left;
+}
+/*Booking Page*/
+#roomrates{
+    overflow: auto;
+}
+#booknow{
+    font-size: x-large;
+    font-weight: bold;
+    color: #ffac41;
+    background: rgba(0,60,60,0.6);
+    width: 10rem;
+    float: right;
+}
+#rates{
+    float: left;
+    width: 50%;
+    display:inline-block;
+}
+#booking{
+    float: right;
+    width: 50%;
+    display:inline-block;
 }
 
 
