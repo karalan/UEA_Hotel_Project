@@ -2,7 +2,7 @@
 <html>
   <head>
     <meta http-equiv="Content-type" content="text/html;charset=utf-8" />
-      <link type="text/css" rel="stylesheet" href="homepage.css">
+      <link type="text/css" rel="stylesheet" href="homepage2.css">
         <script src="http://code.jquery.com/jquery-1.9.1.js"></script>
         <script src="homepage.js"></script>
           <title>Contact</title>
@@ -10,7 +10,7 @@
   <body>
       <div class="header">
           <img src="webimage/lionlogo2.png">
-            <p>Tel: (+44)1485 532550<br />email: enquiries@goldenlionhotel.co.uk</p>
+            <p>Tel: (+44)1485 532688<br />email: enquiries@goldenlionhotel.co.uk</p>
       </div>
       <div class="menu">
         <table>
@@ -25,9 +25,30 @@
           </tr>
         </table>
       </div>
-		<div class="details">
-			<p>Address: The Green, Hunstanton, Norfolk PE36 6BQ</p>
+		<div id="contact" class="main">
+            <div id="contform">
+              <h4>Contact Form</h4>
+                <p>First Name</p>
+              <input id="fnamebox" class="textbox" type="text" maxlength="32" size="20" value="Given Name" />
+                <p>Last Name</p>
+              <input id="lnamebox" class="textbox" type="text" maxlength="32" size="20" value="Family Name" />
+                 <p>Email</p>
+              <input id="emailbox" class="textbox" type="text" maxlength="32" size="20" value="email address" />
+                <p>Phone Number</p>
+              <input id="telbox" class="textbox" type="text" maxlength="32" size="20" value="Contact Number" />
+                <p>Message</p>
+              <textarea id="messbox" class="textbox" cols="40" rows="6"></textarea>
+            </div>
+            <div class="commbuttons">
+                <button class="navbutton" onclick="saveComment()">Save Comment</button>
+                <button class="navbutton" onclick="clearComment()">Clear Comment</button>
+            </div>
+                </div>
+            <div id="continf">
 			<p>Phone:01485 532688</p>
+            <p>email: enquiries@goldenlion.co.uk</p>
+            <p>Address: The Green, <br />Hunstanton, <br />Norfolk.<br />PE36 6BQ</p>
+            </div>
 		</div>
   </body>
 </html>
