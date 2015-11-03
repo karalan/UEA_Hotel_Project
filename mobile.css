@@ -52,22 +52,24 @@ div.main {
 
 /*Menu styles*/
 div.menu {
-			background-color: #316a94;
-			Display: inline-block;
+		align: center;
 }
+
 div.menu a {
 			font-weight: bold;
 			color: #ffac41;
 			text-decoration: none;
 }
 div.menu td {
+			vertical-align:middle;
 			font-family: Calibri, Arial, Sans-Serif;
-			font-size: 5%;
+			font-size: 70px;
             min-width: 5rem;
-            width: 50rem;
+            width: 1000px;
             text-align: center;
             height: 3rem;
             background-image: url(webimage/menu2.png);
 			background-color: #c5def6;
+			border: solid 0.18rem #316a94;
 
 }
