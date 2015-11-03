@@ -3,7 +3,7 @@ body {
     margin:0;
     padding:0;
     background-color: #c5def6; /*colour declared for if BG img fails to load*/
-    background-image: url(resources/hotel_outside.JPG);
+    background-image: url(hotel_outside.JPG);
     background-repeat: no-repeat;
     background-attachment: fixed; /*means if content increases, BG image will remain static*/
     background-size: 100%;
@@ -80,7 +80,7 @@ div.menu td {
     width: 50rem;
     text-align: center;
     height: 3rem;
-    background-image: url(webimage/menu2.png);
+    background-image: url(menu2.png);
     background-color: #c5def6;
     border: solid 0.2rem #316a94;
 }
