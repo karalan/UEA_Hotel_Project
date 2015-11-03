@@ -25,7 +25,6 @@ div.header {
 }
 
 .header img {
-	align: center;
 	width: 100%;
 }
 
@@ -35,11 +34,9 @@ div.main {
 	margin-top: 3%;
     border: solid 0.2rem #316a94;
     width: 100%;
-	align: center;
-	
 }
 .main h2 {
-    font-size: x-large;
+    font-size: 4rem;
     color: #ffac41;
 	margin: 1%;
 }
@@ -65,7 +62,6 @@ div.main {
 
 /*Menu styles*/
 div.menu {
-		align: center;
 }
 
 div.menu a {
@@ -177,14 +173,14 @@ div.menu td {
 div.review{
 	background-color: rgba(0,60,60,0.6);
     margin-top: 1rem;
-    border: solidd 0.2rem #316a94;
+    border: solid 0.2rem #316a94;
     width: 99%;
 	min-width: 400px;
 	padding: 1%;
 }
 
 div.review p{
-	font-size: 30px;
+	font-size: 2rem;
 }
 #hotelrate{
 	font-size: 5rem;
