@@ -6,6 +6,7 @@
 	<script src="http://code.jquery.com/jquery-1.9.1.js"></script>
 	<script src="https://maps.googleapis.com/maps/api/js"></script>
 	<script src="scripts/find.js"></script>
+    <script src="global.js"></script>
 	<script>google.maps.event.addDomListener(window, 'load', initialize); </script>
 	<title>Directions</title>
 </head>
@@ -14,19 +15,13 @@
 	  <img src="webimage/lionlogo2.png">
 		<p>Tel: (+44)1485 532550<br />email: enquiries@goldenlionhotel.co.uk</p>
   </div>
-  <div class="menu">
-	<table>
-	  <tr>
-		<td><a href="index.html">Home</a></td>
-		<td><a href="booking.html">Booking</a></td>
-	  	<td><a href="gallery.html">Gallery</a></td>
-	  	<td><a href="localarea.html">Local Area</a></td>
-	  	<td><a href="directions.html">Find Us</a></td>
-		<td><a href="review.html">Reviews</a></td>
-		<td><a href="contact.html">Contact</a></td>
-	  </tr>
-	</table>
-  </div>
+  
+    <div class="menu">
+        <table>
+			<div id="nav"></div>
+        </table>
+    </div>
+	  
   <div id= directions" class="main">
 	<h3>From A149 - South</h3>
 	  <p>Head down Redgate Hill, upon passing the 'Welcome To Hunstanton' sign take the third exit on the Oasis Way
