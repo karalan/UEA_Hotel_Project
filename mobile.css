@@ -121,20 +121,20 @@ div.menu td {
 	background-color: rgba(0,50,50,0.7);
 	margin-top: 3%;
 	border-radius: 10%;
+	padding-bottom:5%;
 }
 
 #images_full img{
 	margin-top: 2%;
 	border: 2px solid blue;
 	border-radius: 10%;
-	height: 500px; /*Adding fixed height so the page would not move when changing images"*/
+	height: 600px; /*Adding fixed height so the page would not move when changing images"*/
 }
 #images_thumbnails img{
 	text-align: center;
 	vertical-align: middle;
 	margin:4px;
-	height: 10%;
-	width: 10%;
+	width: 30%;
 	display: inline-block;
 	border: 1px solid blue;
 	border-radius: 10%;
