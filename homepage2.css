@@ -222,6 +222,7 @@ div.commbuttons button{
     float: right;
     width: 50%;
     display:inline-block;
+    text-align: right;
 }
 
 
