@@ -135,7 +135,6 @@ div.review{
     padding: 0.5rem;
     border: solid 0.2rem #316a94;
     width: 80%;
-    float: left;
 	min-width: 400px;
 	padding: 2rem; /*review padding added to move whole element away from other elements, looks better with separation*/
 }
@@ -206,6 +205,20 @@ div.commbuttons button{
     display:inline-block;
 }
 #booking{
+    float: right;
+    width: 50%;
+    display: inline-block;
+}
+/*Contact Page*/
+#contact{
+    overflow: auto;
+}
+#contform{
+    float: left;
+    width: 50%;
+    display:inline-block;
+}
+#continf{
     float: right;
     width: 50%;
     display:inline-block;

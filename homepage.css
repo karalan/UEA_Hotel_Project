@@ -211,5 +211,19 @@ div.commbuttons button{
     width: 50%;
     display:inline-block;
 }
+/*Contact Page*/
+#contact{
+    overflow: auto;
+}
+#contform{
+    float: left;
+    width: 50%;
+    display:inline-block;
+}
+#continf{
+    float: right;
+    width: 50%;
+    display:inline-block;
+}
 
 
