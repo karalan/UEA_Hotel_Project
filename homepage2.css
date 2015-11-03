@@ -135,9 +135,12 @@ div.commbuttons button{
     background-color: rgba(0,80,80,0.8);
 }
 /*Direction Page*/
-.directions{
+#findus{
+    overflow: auto;
+}
+#directions{
     background-color: rgba(0, 60, 60, 0.6);
-    width: 30rem;
+    width: 50%;
     float: left;
     margin: 0.5rem;
 }
@@ -146,7 +149,6 @@ div.commbuttons button{
 	height: 30rem;
     float: right;
     margin: 0.5rem;
-    margin-top: 3%;
 	border: solid 0.2rem #316a94;
 }
 /*Local Area Page*/
