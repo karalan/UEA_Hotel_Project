@@ -1,0 +1,73 @@
+body {
+    font-family: Calibri, Arial, Sans-Serif;
+    margin:0;
+    padding:1rem;
+	color: #FFD11A;
+}
+
+
+div.header {
+			border-radius: 1rem;
+            background-repeat: no-repeat;
+			background-color: #c5def6;
+            margin-bottom: 1rem;
+            display: table; /*Does not work for IE7 & Below*/
+            width:100%;
+            overflow: hidden;
+            font-size: medium;
+            color: #ffac41;
+}
+.header img {
+	align: center;
+	width: 100%;
+}
+
+/*For content of pages*/
+div.main {
+    background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
+    margin-top: 3%;
+    border: solid 0.2rem #316a94;
+    width: 100%;
+	align: center;
+}
+.main h2 {
+    font-size: x-large;
+    color: #ffac41;
+}
+.main p, li {
+    color: #FFD11A;
+}
+.main tr, td{
+    border: solid 0.1rem #316a94;
+}
+.main a {
+    color: #ffac41;
+}
+.main a:visited{
+    color: #ee8331;
+}
+.main a:hover{
+    color: #ac5a20;
+}
+
+/*Menu styles*/
+div.menu {
+			background-color: #316a94;
+			Display: inline-block;
+}
+div.menu a {
+			font-weight: bold;
+			color: #ffac41;
+			text-decoration: none;
+}
+div.menu td {
+			font-family: Calibri, Arial, Sans-Serif;
+			font-size: 5%;
+            min-width: 5rem;
+            width: 50rem;
+            text-align: center;
+            height: 3rem;
+            background-image: url(webimage/menu2.png);
+			background-color: #c5def6;
+
+}

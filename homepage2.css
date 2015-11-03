@@ -99,10 +99,7 @@ div.menu td.inmenu{
 			background-color: #c5def6;
 			background-position: right;
 }
-.menu td.inmenu_lion {
-			background-image: url(webimage/goldenlion2.png);
-			background-repeat: no-repeat;
-}
+
 #gallery {
 	display: block;
 	text-align: center;
