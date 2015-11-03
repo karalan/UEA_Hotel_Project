@@ -48,6 +48,11 @@ div.main {
     font-size: x-large;
     color: #ffac41;
 }
+.main h3 {
+    font-size: large;
+    color: #ffac41;
+	margin: 1%;
+}
 .main p, li {
     color: #FFD11A;
 }
@@ -85,6 +90,7 @@ div.menu td {
 
 }
 
+/*styles for Gallery page*/
 #gallery {
 	display: block;
 	text-align: center;
@@ -111,15 +117,6 @@ div.menu td {
 	border-radius: 10%;
 }
 /*Review Page*/
-div.review{
-	background-color: rgba(0,60,60,0.6);
-    margin-top: 1rem;
-    padding: 0.5rem;
-    border: solid 0.2rem #316a94;
-    width: 80%;
-	min-width: 400px;
-	padding: 2rem; /*review padding added to move whole element away from other elements, looks better with separation*/
-}
 /*Adding the same background to ids*/
 #hotelrate,
 #namebox,

@@ -17,8 +17,13 @@ div.header {
             width:100%;
             overflow: hidden;
             font-size: medium;
-            color: #ffac41;
+            color: #ffac41;		
 }
+
+.header p {
+		display:none; /*There is no purpose in putting too much information on a phone*/
+}
+
 .header img {
 	align: center;
 	width: 100%;
@@ -27,7 +32,6 @@ div.header {
 /*For content of pages*/
 div.main {
     background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
-    margin: 2%;
 	margin-top: 3%;
     border: solid 0.2rem #316a94;
     width: 100%;
@@ -37,9 +41,17 @@ div.main {
 .main h2 {
     font-size: x-large;
     color: #ffac41;
+	margin: 1%;
+}
+.main h3 {
+    font-size: 3rem;
+    color: #ffac41;
+	margin: 1%;
 }
 .main p, li {
     color: #FFD11A;
+	margin: 1%;
+	font-size: 20px;
 }
 .main tr, td{
     border: solid 0.1rem #316a94;
@@ -49,9 +61,6 @@ div.main {
 }
 .main a:visited{
     color: #ee8331;
-}
-.main a:hover{
-    color: #ac5a20;
 }
 
 /*Menu styles*/
@@ -65,6 +74,7 @@ div.menu a {
 			text-decoration: none;
 }
 div.menu td {
+			border-radius: 20px;
 			vertical-align:middle;
 			font-family: Calibri, Arial, Sans-Serif;
 			font-size: 70px;
@@ -77,3 +87,163 @@ div.menu td {
 			border: solid 0.18rem #316a94;
 
 }
+
+/*Booking Page*/
+#booknow{
+    font-size: 50px;
+    font-weight: bold;
+    color: #ffac41;
+    background: rgba(0,60,60,0.6);
+    width: 10rem;
+	text-align: center;
+}
+#booking button{
+	margin-top:5%;
+	width: 100%;
+}
+#rates{
+	font-size: 45px;
+    font-weight: bold;
+    color: #ffac41;
+    background: rgba(0,60,60,0.6);
+	text-align: center;
+}
+
+#rates table{
+	width: 100%;
+}
+
+/*styles for Gallery page*/
+#gallery {
+	display: block;
+	text-align: center;
+	border: 3px solid #316a94;
+	background-color: rgba(0,50,50,0.7);
+	margin-top: 3%;
+	border-radius: 10%;
+}
+
+#images_full img{
+	margin-top: 2%;
+	border: 2px solid blue;
+	border-radius: 10%;
+	height: 500px; /*Adding fixed height so the page would not move when changing images"*/
+}
+#images_thumbnails img{
+	text-align: center;
+	vertical-align: middle;
+	margin:4px;
+	height: 10%;
+	width: 10%;
+	display: inline-block;
+	border: 1px solid blue;
+	border-radius: 10%;
+}
+
+/*Local Area Page*/
+#localarea{
+    overflow: auto;
+}
+#localarea h3{
+	font-size: 3rem;
+	margin-left: 1%;
+	text-align: center;
+}
+#localarea button {
+    font-size: 3rem;
+    font-weight: bold;
+    color: #ffac41;
+    background: rgba(0,60,60,0.6);
+    width: 100%;
+    float:left;
+}
+.localcontent {
+    border: solid 0.2rem #316a94;
+    display: none;
+    float: left;
+}
+
+/*Direction Page*/
+.directions{
+    background-color: rgba(0, 60, 60, 0.6);
+    width: 100%;
+    float: left;
+}
+.map{
+	display:none;
+}
+
+/*Review Page styles*/
+div.review{
+	background-color: rgba(0,60,60,0.6);
+    margin-top: 1rem;
+    border: solidd 0.2rem #316a94;
+    width: 99%;
+	min-width: 400px;
+	padding: 1%;
+}
+
+div.review p{
+	font-size: 30px;
+}
+#hotelrate{
+	font-size: 5rem;
+	width: 5rem;
+	height: 8rem;
+	background: #c5def6;
+	text-align: center;
+}
+
+#namebox,
+#commbox{
+	background: #c5def6;
+	margin-left: 1%;
+	font-size: 3rem;
+	width: 90%;
+}
+#namebox{
+	width: 60%;
+}
+
+div.commbuttons button{
+	font-size: 5rem;
+	width: 100%;
+	height: 100px;
+	border: solid #FFD11A 2px;
+	border-radius: 5px;
+	background: rgba(0,150,150,0.8);
+	margin-top: 3rem;
+}
+#cmtlist p{ /*This will separate comment from each other*/
+    background-color: rgba(0,80,80,0.8);
+}
+
+/*Contact Page*/
+#contact p{
+	font-size: 2rem;
+	margin-left: 1%;
+}
+#contact h4{
+	font-size: 4rem;
+	margin-left: 1%;
+}
+#contact input{
+	width: 40%;
+	font-size: 3rem;
+	margin-left: 1%;
+}
+#contact textarea{
+	width: 80%;
+	font-size: 3rem;
+	margin-left: 1%;
+}
+#contform{
+	margin-top: 3%;
+}
+#continf{
+    width: 100%;
+	margin-top: 2%;
+	margin-left: 1%;
+}
+
+
