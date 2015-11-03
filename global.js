@@ -6,7 +6,7 @@ window.onload = testScreen;
 			$('#nav').append(mcontent);
 			var mstyle = $('<link type="text/css" rel="stylesheet" href="mobile.css">');
 			$('#style').append(mstyle);
-	}
+		}
 
 		else {
 			var dcontent = $('<tr><td><a href="index.html">Home</a></td><td><a href="booking.html">Booking</a></td><td><a href="gallery.html">Gallery</a></td><td><a href="localarea.html">Local Area</a></td><td><a href="directions.html">Find Us</a></td><td><a href="review.html">Reviews</a></td><td><a href="contact.html">Contact</a></td></tr>');
@@ -15,9 +15,6 @@ window.onload = testScreen;
 			var dstyle = $('<link type="text/css" rel="stylesheet" href="homepage2.css">');
 			$('#style').append(dstyle);
 	
-   }}
-   
-   
-   	
-   
-   
+		}
+
+   }

@@ -1,8 +1,10 @@
 body {
+	display: run-in;
     font-family: Calibri, Arial, Sans-Serif;
     margin:0;
     padding:1rem;
 	color: #FFD11A;
+	background-color: #316a94;
 }
 
 
@@ -25,10 +27,12 @@ div.header {
 /*For content of pages*/
 div.main {
     background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
-    margin-top: 3%;
+    margin: 2%;
+	margin-top: 3%;
     border: solid 0.2rem #316a94;
     width: 100%;
 	align: center;
+	
 }
 .main h2 {
     font-size: x-large;
