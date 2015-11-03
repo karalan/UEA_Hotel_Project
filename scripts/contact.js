@@ -1,5 +1,5 @@
 "use strict";
-function clearMessage(){
+    function clearMessage(){
     $('#messbox').val('');
     };
 	function sendMessage() {
@@ -10,6 +10,3 @@ function clearMessage(){
         $('#messbox').val('');
         confirm('Your message has been sent')
     };
-
-        //var totmessage = '<span>'+fname+lname+embox+tebox+mtext+'</span>';
-		//$('#cmtlist').append(cmtlist);
