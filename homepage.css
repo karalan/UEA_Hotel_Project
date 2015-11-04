@@ -3,7 +3,7 @@ body {
     margin:0;
     padding:0;
     background-color: #c5def6; /*colour declared for if BG img fails to load*/
-    background-image: url(hotel_outside.JPG);
+    background-image: url(hotel_outside.jpg);
     background-repeat: no-repeat;
     background-attachment: fixed; /*means if content increases, BG image will remain static*/
     background-size: 100%;
@@ -138,8 +138,8 @@ div.commbuttons button {
     margin: 0.5rem;
 }
 .map {
-	width: 30rem;
-	height: 30rem;
+    width: 20rem;
+    height: 20rem;
     float: right;
     margin: 0.5rem;
 	border: solid 0.2rem #316a94;
