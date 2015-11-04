@@ -32,7 +32,7 @@ div.header {
     text-align: right;
 }
 div.main {
-    background-color: rgba(0,60,60,0.6); /*have to use RGBA value in order to have transparency-->*/
+    background-color: rgba(0,60,60,0.7); /*have to use RGBA value in order to have transparency-->*/
     margin: auto;
     margin-top: 3%;
     padding: 0.5rem;
@@ -132,7 +132,7 @@ div.commbuttons button {
     overflow: auto;
 }
 #directions {
-    background-color: rgba(0, 60, 60, 0.6);
+    background-color: rgba(0, 60, 60, 0.7);
     width: 50%;
     float: left;
     margin: 0.5rem;
@@ -152,7 +152,7 @@ div.commbuttons button {
     font-size: x-large;
     font-weight: bold;
     color: #ffac41;
-    background: rgba(0,60,60,0.6);
+    background: rgba(0,60,60,0.7);
     width: 10rem;
     float:left;
 }
@@ -169,7 +169,7 @@ div.commbuttons button {
     font-size: x-large;
     font-weight: bold;
     color: #ffac41;
-    background: rgba(0,60,60,0.6);
+    background: rgba(0,60,60,0.7);
     width: 10rem;
     float: right;
 }
